@@ -1,0 +1,18 @@
+### Date Picker:
+	https://www.fengyuanchen.github.io/datepicker
+### Include file:
+	1) datepicker.min.css
+	2) jquery-3.4.1.slim.min.js (Any version)
+	3) datepicker.min.js
+	4) active.js (Active your plugin)
+
+### Html Markup:
+	<input type="" data-toggle="datepicker" name="date"/>
+
+### active.js Markup:
+	$(document).ready(function(){
+	          $('[data-toggle="datepicker"]').datepicker({
+		autoShow:true,	--> (Calender Auto showup)
+		format: 'yyyy-mm-dd',--> (You Fixed Date Formate)
+		});
+	});

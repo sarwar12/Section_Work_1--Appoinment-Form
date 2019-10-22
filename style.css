@@ -1,0 +1,86 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+/*Left Section*/
+.section-padding {
+	position: relative;
+	top: 0;
+	left: 0;
+}
+.section-bg {
+	background: url(img/ma.jpg);
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 59%;
+	background-size: cover;
+}
+.section-bg::after {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background: #31d6ff;
+	opacity: 0.8;
+}
+.contact-form {
+	margin: 100px 0;
+}
+.contact-form input, 
+.contact-form textarea {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 17px;
+	/*border: none;*/
+	color: #333333;
+}
+.contact-form h2 {
+	color: #fff;
+	margin-bottom: 15px;
+}
+input:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}
+.contact-form input:focus {
+	border: orange solid 2px;
+}
+.contact-form input[type="submit"] {
+	width: auto;
+	padding: 15px 30px;
+	color: #31d6be;
+	font-weight: 700;
+}
+/*Right Section*/
+.appointment-text {
+	padding-left: 100px;
+	margin-top: 140px;
+}
+.appointment-text h3 {
+	font-size: 26px;
+	font-weight: 500;
+}
+.appointment-text ul {
+	list-style: none;
+	margin-top: 60px;
+}
+.appointment-text ul li {
+	margin-bottom: 10px;
+}
+.appointment-text ul li i {
+	padding-right: 20px;
+	color: #31d6be;
+}
+.appointment-text a {
+	background: #31d6be;
+	color: #fff;
+	padding: 16px 70px;
+	border-radius: 5px;
+	margin-top: 38px;
+	display: inline-block;
+}
